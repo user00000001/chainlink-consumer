@@ -45,6 +45,11 @@ const networkConfig: {
     linkToken: "0x326C977E6efc84E512bB9C30f76E30c160eD06FB",
     fundAmount: "0",
   },
+  "11155111": {
+    name: "sepolia",
+    linkToken: "0x779877A7B0D9E8603169DdbD7836e478b4624789",
+    fundAmount: "100000000000000000",
+  }
 };
 
 export const getNetworkIdFromName = async (networkIdName: string) => {
